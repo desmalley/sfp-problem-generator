@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<quiz>
+    <question type="numerical">
+        <name>
+            <text>Calculate the Abbe Number of Glass</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+                <p>Given a glass material with the following refractive indices:</p>
+                <ul>
+                    <li>Refractive index at the D line (589 nm): <b>n<sub>D</sub> = 1.523</b></li>
+                    <li>Refractive index at the F line (486 nm): <b>n<sub>f</sub> = 1.531</b></li>
+                    <li>Refractive index at the C line (656 nm): <b>n<sub>c</sub> = 1.517</b></li>
+                </ul>
+                <p>Calculate the Abbe number <b>V<sub>D</sub></b> for the given glass using the formula:</p>
+                <p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ABBE-0001.png" alt="Abbe Number Formula" /></p>
+            ]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+                <p>The Abbe number quantifies the glass's dispersion and helps determine its optical characteristics. You can calculate it using the formula <b>V<sub>D</sub> = (n<sub>D</sub> - 1) / (n<sub>f</sub> - n<sub>c</sub>)</b>.</p>
+            ]]></text>
+        </generalfeedback>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <defaultgrade>1</defaultgrade>
+
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Correct!</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Almost there. Check your calculations again.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>That's not correct. Remember to use the given formula and values.</p>]]></text>
+        </incorrectfeedback>
+
+        <answer fraction="100" format="html">
+            <text><![CDATA[37.36]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p>Yes, the Abbe number <b>V<sub>D</sub></b> is 37.36.</p>]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[45.00]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p>No, this value is incorrect. Make sure you use the correct values for each refractive index.</p>]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[50.00]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p>No, this value is too high. Recheck the formula and your calculation.</p>]]></text>
+            </feedback>
+        </answer>
+    </question>
+</quiz>

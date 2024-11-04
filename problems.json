@@ -1,0 +1,674 @@
+{   "id": "SFP-REFRACTION-0001",
+    "title": "Refraction from Air to Water",
+    "description": "Determine the direction in which a light ray bends when traveling from air into water at an angle to the normal.",
+    "difficulty": "Basic",
+    "tags": ["refraction", "optics", "Snell's law"],
+    "question_text": "A light ray travels from air (index of refraction n=1.0) into water (index of refraction n=1.33) at an angle of 45° to the normal. In which direction does the light ray bend, and why?",
+    "choices": [
+      "Towards the normal",
+      "Away from the normal",
+      "Does not bend",
+      "Refracts parallel to the normal"
+    ],
+    "correct_answer": "Towards the normal",
+    "explanation": "According to Snell's Law, light bends towards the normal when it moves from a medium of lower refractive index to a medium of higher refractive index.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0001.png",
+    "solution": {
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Identify the indices of refraction for air (n1 = 1.0) and water (n2 = 1.33)."
+        },
+        {
+          "step_number": 2,
+          "description": "Using Snell's Law, \( n_1 \\sin(\\theta_1) = n_2 \\sin(\\theta_2) \\), substitute the known values: \( 1.0 \\cdot \\sin(45°) = 1.33 \\cdot \\sin(\\theta_2) \\)."
+        },
+        {
+          "step_number": 3,
+          "description": "Calculate \( \\sin(\\theta_2) = \\frac{1.0 \\cdot \\sin(45°)}{1.33} \\approx 0.53 \\)."
+        },
+        {
+          "step_number": 4,
+          "description": "Find the angle \( \\theta_2 = \\sin^{-1}(0.53) \\approx 32° \\)."
+        },
+        {
+          "step_number": 5,
+          "description": "Since the angle decreases (from 45° to 32°), the light ray bends **towards the normal** upon entering water."
+        }
+      ],
+      "final_answer": "The light ray bends towards the normal due to the increase in refractive index."
+    }
+  }
+
+  {
+    "id": "SFP-REFRACTION-0002",
+    "title": "Refraction Through a Glass Prism",
+    "description": "Analyze the direction of bending for a light ray entering and exiting a glass prism in air.",
+    "difficulty": "Intermediate",
+    "tags": ["refraction", "optics", "Snell's law", "prism"],
+    "question_text": "A prism made of glass (n=1.5) is placed in air. If a light ray enters the prism, will it bend toward or away from the base of the prism, and why? Describe what happens as it exits the other side of the prism.",
+    "choices": [
+        "Bends towards the base upon entry, exits away from the base",
+        "Bends away from the base upon entry, exits towards the base",
+        "Does not bend",
+        "Exits parallel to the base"
+    ],
+    "correct_answer": "Bends towards the base upon entry, exits away from the base",
+    "explanation": "According to Snell's Law, as light enters a denser medium (air to glass), it bends towards the normal. Since the prism is triangular, this results in bending towards the base. Upon exiting into air, it bends away from the normal due to the lower refractive index, moving away from the base.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0002.png",
+    "solution": {
+        "steps": [
+            {
+                "step_number": 1,
+                "description": "Identify the indices of refraction for air (n1 = 1.0) and glass (n2 = 1.5)."
+            },
+            {
+                "step_number": 2,
+                "description": "Using Snell's Law, \( n_1 \\sin(\\theta_1) = n_2 \\sin(\\theta_2) \\), analyze the bending direction upon entering the glass."
+            },
+            {
+                "step_number": 3,
+                "description": "Since \( n_2 > n_1 \), the light ray bends **towards the normal**, effectively moving towards the prism's base."
+            },
+            {
+                "step_number": 4,
+                "description": "As the ray exits the prism back into air, apply Snell's Law again with air as \( n_1 = 1.0 \) and glass as \( n_2 = 1.5 \)."
+            },
+            {
+                "step_number": 5,
+                "description": "With \( n_1 < n_2 \), the light bends **away from the normal**, causing it to move away from the base upon exiting."
+            }
+        ],
+        "final_answer": "The light ray bends towards the base upon entry and away from the base upon exit due to changes in the refractive index.",
+        "solution_image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/SOLUTION-REFRACTION-0002.png"
+    }
+}
+
+
+
+
+{
+    "id": "SFP-REFRACTION-0002",
+    "title": "Refraction Through a Glass Prism",
+    "description": "Analyze the direction of bending for a light ray entering and exiting a glass prism in air.",
+    "difficulty": "Basic",
+    "insight": "Light bends toward high index",
+    "tags": ["refraction", "optics", "Snell's law", "prism"],
+    "question_text": "A prism made of glass (n=1.5) is placed in air. If a light ray enters the prism, will it bend toward or away from the base of the prism, and why? Describe what happens as it exits the other side of the prism.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0002.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/SOLUTION-REFRACTION-0002.png",
+    "solution": {
+        "final_answer": "The light ray bends towards the base upon entry and away from the base upon exit due to changes in the refractive index.",
+        "steps": [
+            "Identify the indices of refraction for air (n1 = 1.0) and glass (n2 = 1.5).",
+            "Using Snell's Law, n1 * sin(θ1) = n2 * sin(θ2), analyze the bending direction upon entering the glass.",
+            "Since n2 > n1, the light ray bends towards the normal, effectively moving towards the prism's base.",
+            "As the ray exits the prism back into air, apply Snell's Law again with air as n1 = 1.0 and glass as n2 = 1.5.",
+            "With n1 < n2, the light bends away from the normal, causing it to move away from the base upon exiting."
+        ]
+    }
+}
+
+{
+    "id": "SFP-REFRACTION-0003",
+    "title": "Mirage Effect on a Hot Day",
+    "description": "Explain how light can bend in layers of varying index of refraction, creating the appearance of water on a road.",
+    "difficulty": "Basic",
+    "insight": "Light bends toward high index",
+    "tags": ["refraction", "optics", "mirage", "atmospheric effects"],
+    "question_text": "Imagine a mirage on a hot day, where the index of refraction increases with height. Describe how light from the sky can appear to bend and give the appearance of water on the road.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0003.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0003s.png",
+    "solution": {
+        "final_answer": "The light bends towards the ground as it moves into layers of higher refractive index near the hot road surface, creating an illusion of water by reflecting the sky.",
+        "steps": [
+            "Identify that the index of refraction increases with height due to warmer air near the ground.",
+            "Understand that light bends towards regions of higher refractive index according to Snell's Law.",
+            "As light from the sky travels downward, it bends towards the denser, cooler air closer to the ground.",
+            "Eventually, the light reaches a critical angle and reflects, bending back upward towards an observer's eyes.",
+            "This reflection creates the illusion of water on the road as the light appears to come from the surface, reflecting the sky."
+        ]
+    }
+}
+
+
+{
+    "id": "SFP-REFRACTION-0010",
+    "title": "Minimum Deviation Angle of a Prism",
+    "description": "Calculate the minimum deviation angle for a prism given its apex angle and index of refraction.",
+    "difficulty": "Intermediate",
+    "insight": "For small apex angles, the minimum deviation angle can be approximated using a simplified prism equation.",
+    "tags": ["prism", "optics", "refraction", "Snell's law"],
+    "question_text": "Beginning with the minimum deflection equation, Use the formula for minimum deviation: $$\\sin\\left(\\frac{\\alpha + \\theta_d}{2}\\right) = n \\sin\\left(\\frac{\\alpha}{2}\\right)$$.  Derive the prism equation $$ \\theta_d =\\alpha/2$$ where $$\\alpha$$ is the apex angle and $$n = 1.5$$.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0010.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0010s.png",
+    "solution": {
+        "final_answer": "$$ \\theta_d =\\alpha/2$$.",
+        "steps": [
+            "Identify the apex angle $$\\alpha = 30^\\circ$$ and the index of refraction $$n = 1.5$$.",
+            "Use the formula for minimum deviation: $$\\sin\\left(\\frac{\\alpha + \\theta_d}{2}\\right) = n \\sin\\left(\\frac{\\alpha}{2}\\right)$$.",
+            "Since $$\\alpha$$ is small, apply the small-angle approximation: $$\\frac{\\alpha + \\theta_d}{2} \\approx n \\frac{\\alpha}{2}$$.",
+            "Solve for $$\\theta_d$$: $$\\theta_d = n \\alpha - \\alpha = \\alpha (n - 1)$$.",
+            "Now we have the prism equation: $$ \\theta_d =\\alpha/2$$."
+        ]
+    }
+}
+
+{
+    "id": "SFP-REFRACTION-0020",
+    "title": "Minimum Deviation Angle of a Prism Using Approximation (second method)",
+    "description": "Calculate the minimum deviation angle for a prism given its apex angle and index of refraction, using the small-angle approximation.",
+    "difficulty": "Intermediate",
+    "insight": "For small apex angles, the minimum deviation angle can be approximated using a simplified prism equation.",
+    "tags": ["prism", "optics", "refraction", "small-angle approximation"],
+    "question_text": "Given a prism with apex angle $$\\alpha$$ and index of refraction $$n = 1.5$$ (glass), use the small-angle approximation to derive the expression for the minimum deviation angle $$\\theta_d \\approx \\frac{\\alpha}{2}$$.\nStart with the formula for minimum deviation angle: $$\\theta_d = \\theta - \\alpha + \\sin^{-1}\\left(\\sqrt{n^2 - \\sin^2 \\theta} \\cdot \\sin \\alpha - \\sin\\theta \\cdot \\cos \\alpha\\right)$$.\nAssume that $$\\theta$$ is zero and $$\\alpha$$ is small.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0010.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0010s.png",
+    "solution": {
+        "final_answer": "$$\\theta_d \\approx \\frac{\\alpha}{2}$$",
+    "steps": [
+        "Identify the apex angle $$\\alpha$$ and the index of refraction $$n = 1.5$$ (for glass).",
+        "Start with the formula for minimum deviation angle: $$\\theta_d = \\theta - \\alpha + \\sin^{-1}\\left(\\sqrt{n^2 - \\sin^2 \\theta} \\cdot \\sin \\alpha - \\sin \\theta \\cdot \\cos \\alpha\\right)$$.",
+        "Assume that the deviation is minimized when $$\\theta = 0$$. Substituting $$\\theta = 0$$ into the equation, we get: $$\\theta_d = -\\alpha + \\sin^{-1}\\left(\\sqrt{n^2} \\cdot \\sin \\alpha - 0 \\cdot \\cos \\alpha\\right)$$.",
+        "Since $$\\sin \\theta$$ is zero, this simplifies to: $$\\theta_d = -\\alpha + \\sin^{-1}(n \\sin \\alpha)$$.",
+        "Now, assume that $$\\alpha$$ is small. Use the small-angle approximation $$\\sin \\alpha \\approx \\alpha$$.",
+        "Substitute $$\\sin \\alpha \\approx \\alpha$$ into the equation: $$\\theta_d \\approx -\\alpha + \\sin^{-1}(n \\alpha)$$.",
+        "Apply the small-angle approximation again for the inverse sine: $$\\sin^{-1}(n \\alpha) \\approx n \\alpha$$, so the equation becomes $$\\theta_d \\approx -\\alpha + n \\alpha$$.",
+        "Combine terms: $$\\theta_d \\approx \\alpha (n - 1)$$.",
+        "With the given value of $$n = 1.5$$, substitute to find $$\\theta_d \\approx \\alpha \\times 0.5 = \\frac{\\alpha}{2}$$.",
+        "Thus, the final expression for the minimum deviation angle is $$\\theta_d \\approx \\frac{\\alpha}{2}$$."
+    ]
+
+    }
+}
+
+
+{
+    "id": "SFP-EIKONAL-0100",
+    "title": "Deriving the Eikonal Equation from the Wave Equation",
+    "description": "Derive the Eikonal equation from the wave equation using four-vectors and tensor formalism in the context of spacetime.",
+    "difficulty": "Advanced",
+    "insight": "Using four-vector formalism simplifies the transition from the wave equation to the Eikonal equation by leveraging spacetime symmetries.",
+    "tags": ["Eikonal equation", "wave equation", "four-vectors", "tensor formalism", "spacetime"],
+    "question_text": "Starting with the wave equation and using the argument convention $$\\varphi(\\omega t - \\vec{k} \\cdot \\vec{r})$$, derive the Eikonal equation using four-vector notation and tensor formalism. Assume a general form for the wave equation in spacetime and apply the conditions for a high-frequency approximation.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-EIKONAL-0100.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-EIKONAL-0100s.png",
+    "solution": {
+        "final_answer": "The derived Eikonal equation is $$\\left(\\frac{\\partial \\varphi}{\\partial x^\\mu}\\right) \\left(\\frac{\\partial \\varphi}{\\partial x_\\mu}\\right) = 0$$.",
+        "steps": [
+            "Start with the wave equation in vacuum: $$\\Box \\varphi = 0$$, where $$\\Box = \\eta^{\\mu \\nu} \\partial_\\mu \\partial_\\nu$$ is the d'Alembertian operator.",
+            "Assume a solution for $$\\varphi$$ of the form $$\\varphi = A(x) e^{i(\\omega t - \\vec{k} \\cdot \\vec{r})}$$, where $$A(x)$$ is a slowly varying amplitude.",
+            "Define the four-wavevector $$k_\\mu = \\partial_\\mu \\varphi = (-\\omega, \\vec{k})$$, using the four-vector convention in spacetime.",
+            "Substitute $$\\varphi$$ into the wave equation and separate real and imaginary parts. The real part of the equation gives: $$\\eta^{\\mu \\nu} k_\\mu k_\\nu = 0$$.",
+            "This simplification leads to the Eikonal equation: $$\\left(\\frac{\\partial \\varphi}{\\partial x^\\mu}\\right) \\left(\\frac{\\partial \\varphi}{\\partial x_\\mu}\\right) = 0$$, which represents the condition for phase propagation in the high-frequency limit.",
+            "The result shows that the Eikonal equation can be derived from the wave equation under the assumption of high-frequency (short-wavelength) approximation, where the amplitude $$A(x)$$ varies slowly compared to the phase."
+        ]
+    }
+}
+
+{
+    "id": "SFP-EIKONAL-0050",
+    "title": "Optical Path Length in a Gradient-Index Medium",
+    "description": "Determine the optical path length (OPL) for a light ray traveling vertically through a medium where the index of refraction changes with height.",
+    "difficulty": "Intermediate",
+    "insight": "The optical path length depends on both the path length and the gradient of the refractive index.",
+    "tags": ["refraction", "optics", "gradient-index", "integral"],
+    "question_text": "A light ray travels vertically from $$ y = 0 $$ to $$ y = h $$ in a medium where the index of refraction $$ n(y) $$ varies with height as $$ n(y) = 1 + \\gamma y $$. Using this, find the optical path length (OPL), $$OPL =|S|= \\int_C n(r) ds$$, from $$ y = 0 $$ to $$ y = h $$.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0050.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/SOLUTION-REFRACTION-0050s.png",
+    "solution": {
+        "final_answer": "The optical path length is given by $$ \\text{OPL} = h + \\frac{\\gamma h^2}{2} $$.",
+        "steps": [
+            "Define the optical path length (OPL) integral: $$ \\text{OPL} = \\int_0^h n(y) \\, ds $$.",
+            "Since the light ray travels vertically, $$ ds = dy $$, so the integral becomes $$ \\text{OPL} = \\int_0^h n(y) \\, dy $$.",
+            "Substitute $$ n(y) = 1 + \\gamma y $$ into the integral: $$ \\text{OPL} = \\int_0^h (1 + \\gamma y) \\, dy $$.",
+            "Separate the terms in the integral: $$ \\text{OPL} = \\int_0^h 1 \\, dy + \\int_0^h \\gamma y \\, dy $$.",
+            "Evaluate $$ \\int_0^h 1 \\, dy = h $$ and $$ \\int_0^h \\gamma y \\, dy = \\frac{\\gamma h^2}{2} $$.",
+            "Combine the results to get $$ \\text{OPL} = h + \\frac{\\gamma h^2}{2} $$."
+        ]
+    }
+}
+
+
+
+{
+    "id": "SFP-FERMAT-0030",
+    "title": "Refraction Angle Using Fermat's Principle",
+    "description": "Determine the angle of refraction for a light ray traveling from air to water using Fermat's Principle and Snell's Law.",
+    "difficulty": "Intermediate",
+    "insight": "Fermat's Principle leads to Snell's Law by finding the path of least time.",
+    "tags": ["Fermat's Principle", "refraction", "optics", "Snell's Law", "calculus"],
+    "question_text": "A light ray travels from point A in air (refractive index $$n_1 = 1$$) to point B in water (refractive index $$n_2 = 1.33$$) at an angle of incidence $$\\theta_1 = 30^\\circ$$. Using Fermat's principle, find the angle of refraction $$\\theta_2$$ in the water.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0030.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0030.png",
+    "solution": {
+        "final_answer": "The angle of refraction is approximately $$\\theta_2 = 22^\\circ$$.",
+        "steps": [
+            "Define variables: $$d$$ as the distance from the boundary to point B, $$x$$ as the distance along the boundary where the light ray enters the water, and $$c$$ as the speed of light in vacuum.",
+            "Calculate the travel time in each medium. Time in air: $$t_1 = \\frac{\\sqrt{x^2 + h^2}}{c}$$. Time in water: $$t_2 = \\frac{\\sqrt{(d - x)^2 + h^2}}{c / n_2}$$.",
+            "Total travel time is the sum of the times: $$t = t_1 + t_2$$.",
+            "Apply Fermat's Principle: Differentiate the total time $$t$$ with respect to $$x$$ and set the derivative equal to zero, $$\\frac{dt}{dx} = 0$$.",
+            "Solve for the angle of refraction by arriving at Snell's Law: $$n_1 \\sin(\\theta_1) = n_2 \\sin(\\theta_2)$$.",
+            "Substitute the given values into Snell's Law: $$1 \\cdot \\sin(30^\\circ) = 1.33 \\cdot \\sin(\\theta_2)$$.",
+            "Calculate the refracted angle: $$\\theta_2 = \\sin^{-1}\\left(\\frac{\\sin(30^\\circ)}{1.33}\\right) \\approx 22^\\circ$$."
+        ]
+    },
+    "key_points": [
+        "Fermat's Principle states that light travels along the path that takes the least time between two points.",
+        "To apply Fermat's Principle, set up an equation for the travel time along a variable path and differentiate it to find the minimum.",
+        "In this case, applying Fermat's Principle leads to Snell's Law: $$n_1 \\sin(\\theta_1) = n_2 \\sin(\\theta_2)$$."
+    ]
+}
+
+
+
+{
+    "id": "SPF-IMAGING-0001",
+    "title": "Numerical Optical Relay System with Imaging and Magnification",
+    "description": "Calculate the image location and magnification for an optical relay system using specific distances and focal lengths.",
+    "difficulty": "Basic",
+    "insight": "In an optical relay, the imaging equation describes where an image will form relative to the lenses, and the magnification equation determines the image size.",
+    "tags": ["optics", "relay", "imaging", "lenses", "magnification"],
+    "question_text": "In an optical relay setup, an object is placed 10 cm from the first lens (focal length $$f_1 = 10\\, \\text{cm}$$). The second lens has a focal length of $$f_2 = 10\\, \\text{cm}$$ and is positioned 20 cm away from the first lens. Using the imaging equation, calculate where the final image will form relative to the second lens, and determine the overall magnification.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0001.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/SOLUTION-IMAGING-0001.png",
+    "solution": {
+        "final_answer": "The final image forms at the focal point of the second lens, 10 cm from the lens on the opposite side, with a magnification of -1 (inverted image, same size as the object).",
+            "steps": [
+                "Define the refractive indices: $$n_1 = 1$$ for air and $$n_2 = 1.33$$ for water.",
+                
+                "Set up the time for each segment of the light’s path: \n - Time in air (from point A to the boundary): $$ t_1 = \\frac{\\sqrt{x^2 + h^2}}{c / n_1} $$, where $$ x $$ is the horizontal distance from point A to the boundary, and $$ h $$ is the vertical distance to the boundary. \n - Time in water (from the boundary to point B): $$ t_2 = \\frac{\\sqrt{(d - x)^2 + h^2}}{c / n_2} $$, where $$ d $$ is the total horizontal distance from point A to point B.",
+                
+                "Define the total travel time $$ t $$ as the sum of the times in air and water: \n $$ t = t_1 + t_2 = \\frac{\\sqrt{x^2 + h^2}}{c / n_1} + \\frac{\\sqrt{(d - x)^2 + h^2}}{c / n_2} $$.",
+                
+                "To find the path of least time, apply Fermat’s Principle by taking the derivative of the total time with respect to $$ x $$ and setting it to zero: \n $$ \\frac{dt}{dx} = \\frac{d}{dx} \\left( \\frac{\\sqrt{x^2 + h^2}}{c / n_1} + \\frac{\\sqrt{(d - x)^2 + h^2}}{c / n_2} \\right) = 0 $$.",
+                
+                "Differentiate each term with respect to $$ x $$: \n - For the air segment: $$ \\frac{d}{dx} \\left( \\frac{\\sqrt{x^2 + h^2}}{c / n_1} \\right) = \\frac{n_1}{c} \\cdot \\frac{x}{\\sqrt{x^2 + h^2}} $$. \n - For the water segment: $$ \\frac{d}{dx} \\left( \\frac{\\sqrt{(d - x)^2 + h^2}}{c / n_2} \\right) = -\\frac{n_2}{c} \\cdot \\frac{d - x}{\\sqrt{(d - x)^2 + h^2}} $$.",
+                
+                "Set the derivative equal to zero: \n $$ \\frac{n_1}{c} \\cdot \\frac{x}{\\sqrt{x^2 + h^2}} = \\frac{n_2}{c} \\cdot \\frac{d - x}{\\sqrt{(d - x)^2 + h^2}} $$.",
+                
+                "Recognize that each side of the equation corresponds to the sine of the angles of incidence and refraction: \n - $$ \\sin(\\theta_1) = \\frac{x}{\\sqrt{x^2 + h^2}} $$ for the angle in air. \n - $$ \\sin(\\theta_2) = \\frac{d - x}{\\sqrt{(d - x)^2 + h^2}} $$ for the angle in water.",
+                
+                "Rewrite the equation using Snell's Law: \n $$ n_1 \\sin(\\theta_1) = n_2 \\sin(\\theta_2) $$.",
+                
+                "Solve for the angle of refraction $$ \\theta_2 $$ using Snell’s Law: \n $$ \\theta_2 = \\arcsin \\left( \\frac{n_1}{n_2} \\sin(\\theta_1) \\right) $$. \n Substitute the given values: $$ \\theta_1 = 30^\\circ $$, $$ n_1 = 1 $$, and $$ n_2 = 1.33 $$: \n $$ \\sin(30^\\circ) = 0.5 $$, so $$ \\theta_2 = \\arcsin \\left( \\frac{1 \\cdot 0.5}{1.33} \\right) \\approx 22^\\circ $$."
+            ]
+        
+        },
+    
+    "key_points": [
+        "An optical relay system transfers an image from one plane to another using two lenses.",
+        "If the object is placed at the focal point of the first lens, rays emerge parallel.",
+        "When parallel rays enter the second lens at its focal point, the image forms at the second lens's opposite focal point.",
+        "In this setup, the final image is inverted and has the same size as the object, giving an overall magnification of -1."
+    ]
+}
+
+
+
+{
+    "id": "SFP-IMAGING-0001",
+    "title": "Image Formation by a Single Lens Relay",
+    "description": "Determine the image distance, magnification, and nature of the image for an object placed at a given distance from a positive lens.",
+    "difficulty": "Basic",
+    "insight": "Relays replace a real object with an incorporeal image of the same dimensions.",
+    "tags": ["lens", "optics", "image formation", "thin lens formula"],
+    "question_text": "Using the thin lens formula $$\\frac{1}{f} = \\frac{1}{b} + \\frac{1}{g}$$, where $$f$$ is the focal length of the lens, $$b$$ is the object distance, and $$g$$ is the image distance, find the image distance and magnification for an object placed at a distance of 20 cm from a convex lens with a focal length of 10 cm.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0001.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0001s.png",
+    "solution": {
+        "final_answer": " image distance = 20 cm; image type = Real, inverted; magnification = -1",
+        "steps": [
+            "Identify the given values: object distance $$b = 20 \\text{ cm}$$, focal length $$f = 10 \\text{ cm}$$.",
+            "Apply the thin lens formula: $$\\frac{1}{f} = \\frac{1}{b} + \\frac{1}{g}$$.",
+            "Rearrange to solve for $$g$$: $$g = \\frac{bf}{b-f}",
+            "Substitute the values: $$g = \\frac{20*10}{20-10}$$.",
+            "Calculate $$g$$: $$g = 20 \\text{ cm}$$.",
+            "Since $$g$$ is positive, the image is real and located on the opposite side of the lens from the object.",
+            "Calculate magnification using $$M = -\\frac{g}{b}$$: $$M = -\\frac{20}{20} = -1$$.",
+            "The negative sign indicates that the image is inverted, and the magnification of 1 means the image is the same size as the object."
+        ]
+    }
+}
+
+
+{
+    "id": "SFP-IMAGING-0010",
+    "title": "Two-Lens Imaging System",
+    "description": "Calculate the final image distance and total magnification of a two-lens system given the object height, object distance, and focal lengths of both lenses.",
+    "difficulty": "Intermediate",
+    "insight": "The final image distance and total magnification of a two-lens system can be found by analyzing each lens separately, then combining the results.",
+    "tags": ["lens", "optics", "image formation", "multiple lenses"],
+    "question_text": "An object with a height of 3 units is placed at an object distance $$b = 6$$ cm from a positive lens (Lens 1) with a focal length $$f_1 = +4$$ cm. A second lens (Lens 2) with a focal length $$f_2 = -3$$ cm is placed 18 cm to the right of Lens 1. Calculate the image distance $$g_2$$ from Lens 2 and the total magnification $$M_{total}$$ of the system.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0010.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0010s.png",
+    "solution": {
+        "final_answer": {
+            "final_image_distance": "g_2 = -2 cm",
+            "total_magnification": "M_{total} = -2/3"
+        },
+        "steps": [
+            "Identify the given values: object height = 3 units, object distance $$b = 6$$ cm, focal length of Lens 1 $$f_1 = +4$$ cm, distance between lenses = 18 cm, focal length of Lens 2 $$f_2 = -3$$ cm.",
+            "For Lens 1, use the thin lens formula $$\\frac{1}{f_1} = \\frac{1}{b} + \\frac{1}{g_1}$$ to find the image distance $$g_1$$.",
+            "Substitute values for Lens 1: $$\\frac{1}{4} = \\frac{1}{6} + \\frac{1}{g_1}$$.",
+            "Solve for $$g_1$$: $$g_1 = 12$$ cm.",
+            "The image from Lens 1 acts as the object for Lens 2. Calculate the new object distance for Lens 2 as $$b' = 18 - g_1 = 6$$ cm.",
+            "For Lens 2, use the thin lens formula $$\\frac{1}{f_2} = \\frac{1}{b'} + \\frac{1}{g_2}$$ to find the image distance $$g_2$$.",
+            "Substitute values for Lens 2: $$\\frac{1}{-3} = \\frac{1}{6} + \\frac{1}{g_2}$$.",
+            "Solve for $$g_2$$: $$g_2 = -2$$ cm.",
+            "Calculate the magnification for each lens. For Lens 1: $$M_1 = -\\frac{g_1}{b} = -\\frac{12}{6} = -2$$.",
+            "For Lens 2: $$M_2 = -\\frac{g_2}{b'} = -\\frac{-2}{6} = \\frac{1}{3}$$.",
+            "Calculate the total magnification: $$M_{total} = M_1 \\times M_2 = -2 \\times \\frac{1}{3} = -\\frac{2}{3}$$."
+        ]
+    }
+}
+
+
+
+
+{
+    "id": "SFP-IMAGING-0100",
+    "title": "Imaging an Object Placed at the Center of a Lens",
+    "description": "Analyze the behavior of light rays when an object is imaged at the center of a lens and show that the second lens behaves as if it weren’t there.",
+    "difficulty": "Advanced",
+    "insight": "When an object is placed at the very center of a lens, the rays pass through without changing direction, effectively making the second lens irrelevant.",
+    "tags": ["optics", "lens", "imaging", "ray optics"],
+    "question_text": "Consider an optical setup where an object is imaged into the very center of a lens. Using ray tracing principles, show that the behavior of the rays after passing through this point is as if the second lens wasn’t there.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0100.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0100s.png",
+    "solution": {
+        "final_answer": "When an object is imaged at the center of a lens, the rays pass through without changing direction, so it behaves as if the second lens were not there.",
+        "steps": [
+            "Identify that the object is positioned such that its image falls directly at the center of the lens.",
+            "Since the light rays converge at the center of the lens, they experience no net refraction or bending upon passing through.",
+            "This lack of deviation occurs because the center of the lens is effectively at the optical axis, where rays pass straight through.",
+            "As a result, the light rays diverge or continue in the same direction as if the second lens were absent, maintaining the same paths as if no lens were present.",
+            "Conclude that the second lens has no effect on the direction of the rays, as they pass through unchanged. Thus, the system behaves as if the second lens isn’t there."
+        ]
+    },
+    "key_points": [
+        "When an object is imaged at the center of a lens, rays pass through without changing direction.",
+        "This is because the rays passing through the center experience no deviation due to symmetry at the optical axis.",
+        "The optical system behaves as though the second lens were absent, as it has no effect on the ray paths."
+    ]
+}
+
+
+{
+    "id": "SFP-ABCD-0001",
+    "title": "Deriving the ABCD Matrix for Free-Space Propagation",
+    "description": "Calculate the ABCD matrix for an optical system representing free-space propagation over a distance using the paraxial approximation.",
+    "difficulty": "Intermediate",
+    "insight": "The ABCD matrix for free-space propagation can be derived by setting up a system of linear equations for position and angle, then extracting the coefficients to form the matrix.",
+    "tags": ["ABCD matrix", "optics", "free-space propagation", "paraxial approximation"],
+    "question_text": "An optical beam propagates in free space over a distance $$d$$. Given the initial position $$y_1$$ and angle $$\\theta_1$$, find the resulting position $$y_2$$ and angle $$\\theta_2$$ after propagation. Use the paraxial approximation, where $$\\tan \\theta \\approx \\theta$$, to derive the ABCD matrix for free-space propagation.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ABCD-0001.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ABCD-0001.png",
+    "solution": {
+        "final_answer": "The ABCD matrix for free-space propagation over a distance $$d$$ is $$\\begin{bmatrix} 1 & d \\\\ 0 & 1 \\end{bmatrix}$$.",
+        "steps": [
+            "Identify the initial conditions: position $$y_1$$ and angle $$\\theta_1$$ of the beam before propagation.",
+            "Using the paraxial approximation, assume $$\\tan \\theta \\approx \\theta$$ for small angles.",
+            "After propagating a distance $$d$$ in free space, the new position $$y_2$$ can be expressed as: $$y_2 = y_1 + d \\cdot \\theta_1$$.",
+            "Since there is no angular change due to propagation alone, the angle remains the same: $$\\theta_2 = \\theta_1$$.",
+            "Rewrite the equations in matrix form: $$\\begin{bmatrix} y_2 \\\\ \\theta_2 \\end{bmatrix} = \\begin{bmatrix} 1 & d \\\\ 0 & 1 \\end{bmatrix} \\begin{bmatrix} y_1 \\\\ \\theta_1 \\end{bmatrix}$$.",
+            "Identify the coefficients of the matrix: $$A = 1$$, $$B = d$$, $$C = 0$$, and $$D = 1$$.",
+            "Thus, the ABCD matrix for free-space propagation is: $$\\begin{bmatrix} 1 & d \\\\ 0 & 1 \\end{bmatrix}$$."
+        ]
+    }
+}
+
+
+
+{
+    "id": "SFP-MTF-0001",
+    "title": "Calculating Michelson Contrast",
+    "description": "Calculate the Michelson contrast of an image given the maximum and minimum intensities.",
+    "difficulty": "Basic",
+    "insight": "Michelson contrast quantifies the visibility of periodic patterns by comparing maximum and minimum brightness values, useful in assessing image quality.",
+    "tags": ["optics", "contrast", "Michelson", "image quality"],
+    "question_text": "Given a periodic test pattern captured through an optical system, the maximum intensity $$ I_{max} $$ is measured as 120 units, and the minimum intensity $$ I_{min} $$ is measured as 30 units. Calculate the Michelson contrast of this pattern.",
+    "image_url": "https://example.com/images/michelson-contrast-problem.png",
+    "solution_url": "https://example.com/solutions/michelson-contrast-solution.png",
+    "solution": {
+        "final_answer": "0.6",
+        "steps": [
+            "Identify the maximum and minimum intensities in the image as $$ I_{max} = 120 $$ and $$ I_{min} = 30 $$, respectively.",
+            "Use the formula for Michelson contrast: $$ C = \\frac{I_{max} - I_{min}}{I_{max} + I_{min}} $$.",
+            "Substitute the values: $$ C = \\frac{120 - 30}{120 + 30} $$.",
+            "Simplify the expression: $$ C = \\frac{90}{150} $$.",
+            "Calculate the result: $$ C = 0.6 $$."
+        ]
+    }
+}
+
+
+{
+    "id": "SFP-MTF-0002",
+    "title": "Plot MTF from Measured Contrast",
+    "description": "Plot the Modulation Transfer Function (MTF) at different spatial frequencies given input spatial frequency and output contrasts.",
+    "difficulty": "Intermediate",
+    "insight": "MTF measures how well an optical system transfers contrast at various spatial frequencies, essential for understanding image quality.",
+    "tags": ["optics", "MTF", "contrast", "image quality"],
+    "question_text": "An optical system is tested using a sinusoidal test pattern at different spatial frequencies. The input spatial frequencies for each pattern are given below, and the following output contrasts are measured [spatial freq., contrast]:[5, 95],[10, 80],[15, 60],[20, 40],[25, 20]",
+    "instructions": "Calculate the Modulation Transfer Function (MTF) for each spatial frequency using the formula: $$ \\text{MTF} = \\frac{\\text{Output Contrast}}{\\text{Input Contrast}} $$. Assume the input contrast is 100% for all frequencies.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-MTF-0002.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-MTF-0002s.png",
+    "solution": {
+        "final_answer": ["see plot"],
+        "steps": [ "simply plot each point: [5, 95],[10, 80],[15, 60],[20, 40],[25, 20]"]
+    }
+}
+
+
+
+{
+    "id": "SFP-MTF-0020",
+    "title": "Diffraction-Limit Line on MTF graph",
+    "description": "Calculate the Numerical Aperture (NA), cutoff frequency, and diffraction-limited MTF for a Canon EF 50mm f/1.8 lens.",
+    "difficulty": "Advanced",
+    "insight": "Understanding the NA, cutoff frequency, and diffraction-limited MTF helps evaluate a lens's resolution limits and image quality.",
+    "tags": ["optics", "numerical aperture", "cutoff frequency", "MTF", "diffraction"],
+    "question_text": {
+        "text": "The Canon EF 50mm f/1.8 lens has a focal length of 50 mm, a maximum aperture of f/1.8, and operates at a wavelength of 550 nm. Calculate:\n1. The Numerical Aperture (NA)\n2. The cutoff frequency (in lp/mm)\n3. The diffraction-limited MTF at a spatial frequency of 10 lp/mm.",
+        "formulas": [
+            { "NA": "$$ \\text{NA} = \\frac{D}{2f} $$" },
+            { "cutoff_frequency": "$$ f_{\\text{cutoff}} = \\frac{1.22}{\\lambda \\cdot \\text{NA}} $$" },
+            { "diffraction_limited_MTF": "$$ \\text{MTF}(f) = \\frac{2}{\\pi} \\left( \\cos^{-1} \\left( \\frac{f}{f_{\\text{cutoff}}} \\right) - \\frac{f}{f_{\\text{cutoff}}} \\sqrt{1 - \\left( \\frac{f}{f_{\\text{cutoff}}} \\right)^2} \\right) $$" }
+        ],
+        "hints": [
+            "The aperture diameter can be calculated as $$ D = \\frac{f}{\\text{f-number}} $$.",
+            "For cutoff frequency, use the wavelength $$ \\lambda = 550 \\times 10^{-6} $$ mm (for green light).",
+            "Substitute the calculated NA and wavelength into the cutoff frequency formula."
+        ]
+    },
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-MTF-0020.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-MTF-0020s.png",
+    "solution": {
+        "final_answer": {
+            "NA": "0.139",
+            "cutoff_frequency": "15.96 lp/mm",
+            "MTF_at_10_lp_per_mm": "0.664"
+        },
+        "steps": [
+            "1. **Calculate the Numerical Aperture (NA):**",
+            "   - Given: $$ f = 50 $$ mm and f-number = 1.8.",
+            "   - Calculate aperture diameter: $$ D = \\frac{f}{1.8} = \\frac{50}{1.8} \\approx 27.78 $$ mm.",
+            "   - Substitute into NA formula: $$ \\text{NA} = \\frac{27.78}{2 \\times 50} \\approx 0.139 $$.",
+            "2. **Calculate the Cutoff Frequency:**",
+            "   - Given wavelength $$ \\lambda = 550 \\times 10^{-6} $$ mm and NA = 0.139.",
+            "   - Use the cutoff frequency formula: $$ f_{\\text{cutoff}} = \\frac{1.22}{\\lambda \\cdot \\text{NA}} = \\frac{1.22}{(0.00055)(0.139)} \\approx 15.96 $$ lp/mm.",
+            "3. **Calculate the Diffraction-Limited MTF at 10 lp/mm:**",
+            "   - Use the diffraction-limited MTF formula with $$ f = 10 $$ lp/mm and $$ f_{\\text{cutoff}} = 15.96 $$ lp/mm.",
+            "   - Substitute values: $$ \\text{MTF}(10) = \\frac{2}{\\pi} \\left( \\cos^{-1} \\left( \\frac{10}{15.96} \\right) - \\frac{10}{15.96} \\sqrt{1 - \\left( \\frac{10}{15.96} \\right)^2} \\right) $$.",
+            "   - Calculated result: $$ \\text{MTF}(10) \\approx 0.664 $$."
+        ]
+    }
+}
+
+
+
+{
+    "id": "SFP-MTF-0010",
+    "title": "Diffraction-Limit Line on MTF Graph for a Simple Lens",
+    "description": "Calculate the Numerical Aperture (NA), cutoff frequency, and diffraction-limited MTF for a basic 100mm focal length lens with a 20mm diameter aperture.",
+    "difficulty": "Intermediate",
+    "insight": "This problem demonstrates how to determine the theoretical resolution limits of a basic lens using diffraction principles.",
+    "tags": ["optics", "numerical aperture", "cutoff frequency", "MTF", "diffraction"],
+    "question_text": [
+        "A simple lens has a focal length of 100 mm and an aperture diameter of 20 mm. The lens operates at a wavelength of 550 nm. Calculate:",
+        "1. The Numerical Aperture (NA)",
+        "2. The cutoff frequency (in lp/mm)",
+        "3. The diffraction-limited MTF at two spatial frequencies: $$ F = 10 $$ lp/mm and $$ F = 20 $$ lp/mm.",
+        "Formulas:",
+        "- Numerical Aperture (NA): $$ \\text{NA} = \\frac{D}{2f} $$",
+        "- Cutoff Frequency: $$ F_{\\text{cutoff}} = \\frac{1.22}{\\lambda \\cdot \\text{NA}} $$",
+        "- Diffraction-Limited MTF: $$ \\text{MTF}(F) = \\frac{2}{\\pi} \\left( \\cos^{-1} \\left( \\frac{F}{F_{\\text{cutoff}}} \\right) - \\frac{F}{F_{\\text{cutoff}}} \\sqrt{1 - \\left( \\frac{F}{F_{\\text{cutoff}}} \\right)^2} \\right) $$",
+        "Hints:",
+        "- Use the aperture diameter $$ D = 20 $$ mm directly in the NA calculation.",
+        "- For cutoff frequency, use the wavelength $$ \\lambda = 550 \\times 10^{-6} $$ mm (for green light).",
+        "- Substitute the calculated NA and wavelength into the cutoff frequency formula."
+    ],
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-MTF-0010.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-MTF-0010s.png",
+    "solution": {
+        "final_answer": {
+            "NA": "0.1",
+            "cutoff_frequency": "22.18 lp/mm",
+            "MTF_at_10_lp_per_mm": "0.863",
+            "MTF_at_20_lp_per_mm": "0.083"
+        },
+        "steps": [
+            "1. **Calculate the Numerical Aperture (NA):**",
+            "   - Given: $$ f = 100 $$ mm and aperture diameter $$ D = 20 $$ mm.",
+            "   - Substitute into the NA formula: $$ \\text{NA} = \\frac{20}{2 \\times 100} = 0.1 $$.",
+            "2. **Calculate the Cutoff Frequency:**",
+            "   - Given wavelength $$ \\lambda = 550 \\times 10^{-6} $$ mm and NA = 0.1.",
+            "   - Use the cutoff frequency formula: $$ F_{\\text{cutoff}} = \\frac{1.22}{\\lambda \\cdot \\text{NA}} = \\frac{1.22}{(0.00055)(0.1)} \\approx 22.18 $$ lp/mm.",
+            "3. **Calculate the Diffraction-Limited MTF at 10 lp/mm:**",
+            "   - Use the diffraction-limited MTF formula with $$ F = 10 $$ lp/mm and $$ F_{\\text{cutoff}} = 22.18 $$ lp/mm.",
+            "   - Substitute values: $$ \\text{MTF}(10) = \\frac{2}{\\pi} \\left( \\cos^{-1} \\left( \\frac{10}{22.18} \\right) - \\frac{10}{22.18} \\sqrt{1 - \\left( \\frac{10}{22.18} \\right)^2} \\right) $$.",
+            "   - Calculated result: $$ \\text{MTF}(10) \\approx 0.863 $$.",
+            "4. **Calculate the Diffraction-Limited MTF at 20 lp/mm:**",
+            "   - Use the diffraction-limited MTF formula with $$ F = 20 $$ lp/mm and $$ F_{\\text{cutoff}} = 22.18 $$ lp/mm.",
+            "   - Substitute values: $$ \\text{MTF}(20) = \\frac{2}{\\pi} \\left( \\cos^{-1} \\left( \\frac{20}{22.18} \\right) - \\frac{20}{22.18} \\sqrt{1 - \\left( \\frac{20}{22.18} \\right)^2} \\right) $$.",
+            "   - Calculated result: $$ \\text{MTF}(20) \\approx 0.083 $$."
+        ]
+    }
+}
+
+
+{
+    "id": "SFP-ACHROMAT-0002",
+    "title": "Design of an Achromatic Doublet Using Abbe Constants",
+    "description": "Calculate the values of Abbe constants for two different types of glass (SF66 and FK51A) and use them to determine the power of the positive and negative lenses of an achromatic doublet.",
+    "difficulty": "Advanced",
+    "insight": "The Abbe constants determine the dispersive power of the glass types used, and solving for the power of the two lenses involves satisfying both the power and dispersion conditions.",
+    "tags": ["optics", "achromatic doublet", "lens design", "dispersion", "Abbe constant"],
+    "question_text": "Consider two types of optical glass used in an achromatic doublet lens: SF66 (negative lens) and FK51A (positive lens). The Abbe numbers for SF66 and FK51A are 21 and 85, respectively. Given the system focal power of $$D_{\\text{sys}} = 20 \\text{ m}^{-1}$$, determine the Abbe constants $$V_1$$ and $$V_2$$, and use them to calculate the power of the positive lens $$D_1$$ and negative lens $$D_2$$ such that the system power and achromatic conditions are satisfied.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-DISPERSION-0002.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-DISPERSION-0002s.png",
+    "solution": {
+        "final_answer": "The values are $$D_1 = 26.2 \\text{ m}^{-1}$$ and $$D_2 = -6.2 \\text{ m}^{-1}$$.",
+        "steps": [
+            "Assign the Abbe numbers: $$V_1 = 85$$ (FK51A) and $$V_2 = 20$$ (SF66).",
+            "Write the equations for the power of the positive and negative lenses based on the system power and the achromatic condition:",
+            "- System power: $$D_{\\text{sys}} = D_1 + D_2$$.",
+            "- Achromatic condition: $$\\frac{D_1}{V_1} + \\frac{D_2}{V_2} = 0$$.",
+            "Rearrange to solve for $$D_2$$ in terms of $$D_1$$: $$D_2 = D_{\\text{sys}} - D_1$$.",
+            "Substitute into the achromatic condition: $$\\frac{D_1}{V_1} + \\frac{D_{\\text{sys}} - D_1}{V_2} = 0$$.",
+            "Rearrange and solve for $$D_1$$:",
+            "$$D_1 = \\frac{V_1}{V_1 - V_2} D_{\\text{sys}}$$.",
+            "Calculate $$D_1$$:",
+            "$$D_1 = \\frac{85}{85 - 20} \\times 20 = 26.2 \\text{ m}^{-1}$$.",
+            "Calculate $$D_2$$:",
+            "$$D_2 = \\frac{V_2}{V_2 - V_1} D_{\\text{sys}} = -6.2 \\text{ m}^{-1}$$.",
+            "Verify that the sum of $$D_1$$ and $$D_2$$ matches $$D_{\\text{sys}}$$: $$D_1 + D_2 = 20 \\text{ m}^{-1}$$.",
+            "Verify the achromatic condition: $$\\frac{D_1}{V_1} + \\frac{D_2}{V_2} \\approx 0$$."
+        ]
+    }
+}
+
+
+{
+    "id": "SFP-ACHROMAT-0040",
+    "title": "Achromatic Doublet Design Using FK51A and SF66 Glasses",
+    "description": "Design an achromatic doublet using two types of optical glass, FK51A and SF66, given the system power requirement.",
+    "difficulty": "Advanced",
+    "insight": "The achromatic condition is used to balance chromatic dispersion across two lens elements, resulting in minimal chromatic aberration.",
+    "tags": ["optics", "achromatic doublet", "lens design", "dispersion", "chromatic aberration"],
+    "question_text": "Consider designing an achromatic doublet lens made of two types of glass: FK51A (positive lens) and SF66 (negative lens). The Abbe numbers for FK51A and SF66 are 85 and 20, respectively. The effective system power is given as $$D_{\\text{sys}} = 30 \\text{ m}^{-1}$$.\n\nCalculate the power of the positive lens $$D_1$$ and the negative lens $$D_2$$ such that the system power and achromatic conditions are satisfied.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ACHROMAT-0040.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ACHROMAT-0040s.png",
+    "solution": {
+        "final_answer": "The values are $$D_1 = 39.6 \\text{ m}^{-1}$$ and $$D_2 = -9.6 \\text{ m}^{-1}$$.",
+        "steps": [
+            "Assign the Abbe numbers for FK51A (positive lens) and SF66 (negative lens).",
+            "Math: $$V_1 = 85, V_2 = 20$$",
+            
+            "Write the equations for the system power and the achromatic condition.",
+            "Math: System power equation: $$D_{\\text{sys}} = D_1 + D_2$$",
+            "Math: Achromatic condition: $$\\frac{D_1}{V_1} + \\frac{D_2}{V_2} = 0$$",
+            
+            "Rearrange to solve for $$D_2$$ in terms of $$D_1$$.",
+            "Math: $$D_2 = D_{\\text{sys}} - D_1$$",
+            
+            "Substitute into the achromatic condition to express everything in terms of $$D_1$$.",
+            "Math: $$\\frac{D_1}{V_1} + \\frac{D_{\\text{sys}} - D_1}{V_2} = 0$$",
+            
+            "Rearrange and solve for the power of the positive lens $$D_1$$.",
+            "Math: $$D_1 = \\frac{V_1}{V_1 - V_2} D_{\\text{sys}}$$",
+            
+            "Calculate the power of the positive lens.",
+            "Math: $$D_1 = \\frac{85}{85 - 20} \\times 30 = 39.6 \\text{ m}^{-1}$$",
+            
+            "Calculate the power of the negative lens.",
+            "Math: $$D_2 = D_{\\text{sys}} - D_1 = 30 - 39.6 = -9.6 \\text{ m}^{-1}$$",
+            
+            "Verify that the sum of the two lens powers matches the system power.",
+            "Math: $$D_1 + D_2 = 39.6 + (-9.6) = 30 \\text{ m}^{-1}$$",
+            
+            "Verify the achromatic condition.",
+            "Math: $$\\frac{D_1}{V_1} + \\frac{D_2}{V_2} = \\frac{39.6}{85} + \\frac{-9.6}{20} \\approx 0$$"
+        ]
+    }
+}
+
+
+{
+    "id": "SFP-ACHROMAT-0001",
+    "title": "Symbolic Solution for Achromatic Doublet Lens Powers",
+    "description": "Solve symbolically for the power of the lenses in an achromatic doublet system using the achromatic and power conditions.",
+    "difficulty": "Advanced",
+    "insight": "To determine the lens powers symbolically, we use the system power and achromatic conditions involving Abbe constants and the distribution of power between the lenses.",
+    "tags": ["optics", "achromatic doublet", "lens design", "symbolic solution", "dispersion"],
+    "question_text": "Consider an achromatic doublet lens made of two types of glass: FK51A and SF66. The system power of the doublet is given as $$D_{\\text{sys}}$$, and the Abbe numbers for the glass types are represented by $$V_1$$ (FK51A) and $$V_2$$ (SF66). Derive symbolic expressions for the power of the positive lens $$D_1$$ and the negative lens $$D_2$$ in terms of $$D_{\\text{sys}}$$, $$V_1$$, and $$V_2$$.\n\nUse the following conditions:\n\n1. The sum of the powers must match the system power: $$D_{\\text{sys}} = D_1 + D_2$$.\n2. The achromatic condition must be satisfied: $$\\frac{D_1}{V_1} + \\frac{D_2}{V_2} = 0$$.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ACHROMAT-SYMBOLIC-0001.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ACHROMAT-SYMBOLIC-0001s.png",
+    "solution": {
+        "final_answer": "The symbolic expressions are: $$D_1 = \\frac{V_1}{V_1 - V_2} D_{\\text{sys}}$$ and $$D_2 = \\frac{V_2}{V_2 - V_1} D_{\\text{sys}}$$.",
+        "steps": [
+            "Write the given conditions for the achromatic doublet system.",
+            "System power condition: $$D_{\\text{sys}} = D_1 + D_2$$",
+            "Achromatic condition: $$\\frac{D_1}{V_1} + \\frac{D_2}{V_2} = 0$$",
+            
+            "Rearrange the achromatic condition to solve for $$D_1$$ in terms of $$D_2$$.",
+            "Math: $$D_1 = -\\frac{V_1}{V_2} D_2$$",
+            
+            "Substitute the expression for $$D_1$$ from the achromatic condition into the system power condition.",
+            "Math: $$D_{\\text{sys}} = -\\frac{V_1}{V_2} D_2 + D_2$$",
+            
+            "Factor out $$D_2$$.",
+            "Math: $$D_{\\text{sys}} = D_2 \\left( 1 - \\frac{V_1}{V_2} \\right)$$",
+            
+            "Rearrange to solve for $$D_2$$.",
+            "Math: $$D_2 = \\frac{D_{\\text{sys}}}{1 - \\frac{V_1}{V_2}} = \\frac{V_2}{V_2 - V_1} D_{\\text{sys}}$$",
+            
+            "Substitute $$D_2$$ back into the system power condition to solve for $$D_1$$.",
+            "Math: $$D_1 = D_{\\text{sys}} - D_2 = \\frac{V_1}{V_1 - V_2} D_{\\text{sys}}$$",
+            
+            "Write the final symbolic expressions for $$D_1$$ and $$D_2$$.",
+            "Math: $$D_1 = \\frac{V_1}{V_1 - V_2} D_{\\text{sys}}, \\quad D_2 = \\frac{V_2}{V_2 - V_1} D_{\\text{sys}}$$"
+        ]
+    }
+}

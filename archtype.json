@@ -1,0 +1,45 @@
+{
+    "id": "PHY101-REFRACTION-0001",
+    "title": "Refraction from Air to Water",
+    "description": "Determine the direction in which a light ray bends when traveling from air into water at an angle to the normal.",
+    "difficulty": "Basic",
+    "insight": "light bends toward high index",
+    "tags": ["refraction", "optics", "Snell's law"],
+    "question_text": "A light ray travels from air (index of refraction n=1.0) into water (index of refraction n=1.33) at an angle of 45° to the normal. In which direction does the light ray bend, and why?",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0001.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0001.png",
+    "solution": {
+        "final_answer": "The light ray bends towards the normal due to the increase in refractive index.",
+        "steps": [
+            "Identify the indices of refraction for air (n1 = 1.0) and water (n2 = 1.33).",
+            "Using Snell's Law, n1 * sin(θ1) = n2 * sin(θ2), substitute the known values: 1.0 * sin(45°) = 1.33 * sin(θ2).",
+            "Calculate sin(θ2) = (1.0 * sin(45°)) / 1.33 ≈ 0.53.",
+            "Find the angle θ2 = sin⁻¹(0.53) ≈ 32°.",
+            "Since the angle decreases (from 45° to 32°), the light ray bends **towards the normal** upon entering water."
+        ]
+    }
+}
+
+
+
+{
+    "id": "SFP-REFRACTION-0010",
+    "title": "Minimum Deviation Angle of a Prism",
+    "description": "Calculate the minimum deviation angle for a prism given its apex angle and index of refraction.",
+    "difficulty": "Intermediate",
+    "insight": "The deviation angle is minimized when the incident and outgoing angles are symmetric around the apex angle.",
+    "tags": ["prism", "optics", "refraction", "Snell's law"],
+    "question_text": "Beginning with the minimum deflection equation, Use the formula for minimum deviation: $$\\sin\\left(\\frac{\\alpha + \\theta_d}{2}\\right) = n \\sin\\left(\\frac{\\alpha}{2}\\right)$$.  Derive the prism equation $$ \\theta_d =\\alpha/2$$ where $$\\alpha$$ is the apex angle and $$n = 1.5$$.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0010.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0010s.png",
+    "solution": {
+        "final_answer": "$$ \\theta_d =\\alpha/2$$.",
+        "steps": [
+            "Identify the apex angle $$\\alpha = 30^\\circ$$ and the index of refraction $$n = 1.5$$.",
+            "Use the formula for minimum deviation: $$\\sin\\left(\\frac{\\alpha + \\theta_d}{2}\\right) = n \\sin\\left(\\frac{\\alpha}{2}\\right)$$.",
+            "Since $$\\alpha$$ is small, apply the small-angle approximation: $$\\frac{\\alpha + \\theta_d}{2} \\approx n \\frac{\\alpha}{2}$$.",
+            "Solve for $$\\theta_d$$: $$\\theta_d = n \\alpha - \\alpha = \\alpha (n - 1)$$.",
+            "Now we have the prism equation: $$ \\theta_d =\\alpha/2$$."
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<quiz>
+    <question type="category">
+        <category>
+            <text>Quiz 1A: Prisms and Lenses</text>
+        </category>
+    </question>
+    <question type="multichoice">
+        <name>
+            <text>Calculate the Abbe Number of Glass</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+                <p><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">
+                Given a glass material with the following refractive indices:<br>
+                - Refractive index at the D line (589 nm): <b>n<sub>D</sub> = 1.523</b><br>
+                - Refractive index at the F line (486 nm): <b>n<sub>f</sub> = 1.531</b><br>
+                - Refractive index at the C line (656 nm): <b>n<sub>c</sub> = 1.517</b><br><br>
+                Calculate the Abbe number <b>V<sub>D</sub></b> for the given glass using the formula:<br>
+                <img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ABBE-0001.png" alt="Abbe Number Formula" />
+                </span></span></span></span></span></span></p>
+            ]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[<p></p>]]></text>
+        </generalfeedback>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <defaultgrade>1</defaultgrade>
+        <single>1</single>
+        <shuffleanswers>false</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p></p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p></p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p></p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        
+        <answer fraction="100" format="html">
+            <text><![CDATA[
+                <p><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">
+                37.36
+                </span></span></span></span></span></p>
+            ]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p></p>]]></text>
+            </feedback>
+        </answer>
+
+        <answer fraction="0" format="html">
+            <text><![CDATA[
+                <p><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">
+                45.00
+                </span></span></span></span></span></p>
+            ]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p></p>]]></text>
+            </feedback>
+        </answer>
+
+        <answer fraction="0" format="html">
+            <text><![CDATA[
+                <p><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">
+                50.00
+                </span></span></span></span></span></p>
+            ]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p></p>]]></text>
+            </feedback>
+        </answer>
+    </question>
+</quiz>

@@ -1,0 +1,43 @@
+problem_data = {
+    "id": "SFP-REFRACTION-0002",
+    "title": "Refraction Through a Glass Prism",
+    "description": "Analyze the direction of bending for a light ray entering and exiting a glass prism in air.",
+    "difficulty": "Intermediate",
+    "tags": ["refraction", "optics", "Snell's law", "prism"],
+    "question_text": "A prism made of glass (n=1.5) is placed in air. If a light ray enters the prism, will it bend toward or away from the base of the prism, and why? Describe what happens as it exits the other side of the prism.",
+    "choices": [
+        "Bends towards the base upon entry, exits away from the base",
+        "Bends away from the base upon entry, exits towards the base",
+        "Does not bend",
+        "Exits parallel to the base"
+    ],
+    "correct_answer": "Bends towards the base upon entry, exits away from the base",
+    "explanation": "According to Snell's Law, as light enters a denser medium (air to glass), it bends towards the normal. Since the prism is triangular, this results in bending towards the base. Upon exiting into air, it bends away from the normal due to the lower refractive index, moving away from the base.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0002.png",
+    "solution": {
+        "steps": [
+            {
+                "step_number": 1,
+                "description": "Identify the indices of refraction for air (n1 = 1.0) and glass (n2 = 1.5)."
+            },
+            {
+                "step_number": 2,
+                "description": "Using Snell's Law, \( n_1 \\sin(\\theta_1) = n_2 \\sin(\\theta_2) \\), analyze the bending direction upon entering the glass."
+            },
+            {
+                "step_number": 3,
+                "description": "Since \( n_2 > n_1 \), the light ray bends **towards the normal**, effectively moving towards the prism's base."
+            },
+            {
+                "step_number": 4,
+                "description": "As the ray exits the prism back into air, apply Snell's Law again with air as \( n_1 = 1.0 \) and glass as \( n_2 = 1.5 \)."
+            },
+            {
+                "step_number": 5,
+                "description": "With \( n_1 < n_2 \), the light bends **away from the normal**, causing it to move away from the base upon exiting."
+            }
+        ],
+        "final_answer": "The light ray bends towards the base upon entry and away from the base upon exit due to changes in the refractive index.",
+        "solution_image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/SOLUTION-REFRACTION-0002.png"
+    }
+}

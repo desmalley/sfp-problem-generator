@@ -1,0 +1,33 @@
+
+{
+    "id": "SFP-ABBE-0001",
+    "title": "Calculate the Abbe Number of Glass",
+    "description": "Calculate the Abbe number of a given glass material using its refractive indices at specific wavelengths.",
+    "difficulty": "Basic",
+    "insight": "The Abbe number quantifies the glass's dispersion and helps determine its optical characteristics.",
+    "tags": ["optics", "glass", "Abbe number", "dispersion"],
+    "question_text": "Given a glass material with the following refractive indices:\n\n- Refractive index at the D line (589 nm): $$n_D = 1.523$$\n- Refractive index at the F line (486 nm): $$n_f = 1.531$$\n- Refractive index at the C line (656 nm): $$n_c = 1.517$$\n\nCalculate the Abbe number $$V_D$$ for the given glass using the formula:\n\n$$V_D = \\frac{n_D - 1}{n_f - n_c}$$",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ABBE-0001.png",
+    "solution_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ABBE-0001s.png",
+    "solution": {
+        "final_answer": "$$V_D = 37.36$$",
+        "steps": [
+            "Write the formula for the Abbe number.",
+            "Math: $$V_D = \\frac{n_D - 1}{n_f - n_c}$$",
+            
+            "Substitute the given values for $$n_D$$, $$n_f$$, and $$n_c$$.",
+            "Math: $$V_D = \\frac{1.523 - 1}{1.531 - 1.517}$$",
+            
+            "Calculate the numerator.",
+            "Math: $$1.523 - 1 = 0.523$$",
+            
+            "Calculate the denominator.",
+            "Math: $$1.531 - 1.517 = 0.014$$",
+            
+            "Divide the numerator by the denominator to find the Abbe number.",
+            "Math: $$V_D = \\frac{0.523}{0.014} = 37.36$$",
+            
+            "The final answer is $$V_D = 37.36$$."
+        ]
+    }
+}

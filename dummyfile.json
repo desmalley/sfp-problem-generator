@@ -1,0 +1,44 @@
+{
+    "id": "PHY101-REFRACTION-0001",
+    "title": "Refraction from Air to Water",
+    "description": "Determine the direction in which a light ray bends when traveling from air into water at an angle to the normal.",
+    "difficulty": "Basic",
+    "tags": ["refraction", "optics", "Snell's law"],
+    "question_text": "A light ray travels from air (index of refraction n=1.0) into water (index of refraction n=1.33) at an angle of 45° to the normal. In which direction does the light ray bend, and why?",
+    "choices": [
+      "Towards the normal",
+      "Away from the normal",
+      "Does not bend",
+      "Refracts parallel to the normal"
+    ],
+    "correct_answer": "Towards the normal",
+    "explanation": "According to Snell's Law, light bends towards the normal when it moves from a medium of lower refractive index to a medium of higher refractive index.",
+    "image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0001.png",
+    "solution": {
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Identify the indices of refraction for air (n1 = 1.0) and water (n2 = 1.33)."
+        },
+        {
+          "step_number": 2,
+          "description": "Using Snell's Law, \( n_1 \\sin(\\theta_1) = n_2 \\sin(\\theta_2) \\), substitute the known values: \( 1.0 \\cdot \\sin(45°) = 1.33 \\cdot \\sin(\\theta_2) \\)."
+        },
+        {
+          "step_number": 3,
+          "description": "Calculate \( \\sin(\\theta_2) = \\frac{1.0 \\cdot \\sin(45°)}{1.33} \\approx 0.53 \\)."
+        },
+        {
+          "step_number": 4,
+          "description": "Find the angle \( \\theta_2 = \\sin^{-1}(0.53) \\approx 32° \\)."
+        },
+        {
+          "step_number": 5,
+          "description": "Since the angle decreases (from 45° to 32°), the light ray bends **towards the normal** upon entering water."
+        }
+      ],
+      "final_answer": "The light ray bends towards the normal due to the increase in refractive index.",
+      "solution_image_url": "https://sfpimages.s3.us-east-2.amazonaws.com/SOLUTION-REFRACTION-0001.png"
+    }
+  }
+  
