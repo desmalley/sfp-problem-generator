@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Refraction from Air to Water [SFP-REFRACTION-0001]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0001.png" width="400" /><br />A light ray travels from air (index of refraction n=1.0) into water (index of refraction n=1.33) at an angle of 45° to the normal. In which direction does the light ray bend, and why?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>According to Snell's Law, light bends towards the normal when it moves from a medium of lower refractive index to a medium of higher refractive index.</p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Towards the normal</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Away from the normal</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Does not bend</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Refracts parallel to the normal</p>]]></text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Refraction Through a Glass Prism [SFP-REFRACTION-0002]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0002.png" width="400" /><br />A prism made of glass (n=1.5) is placed in air. If a light ray enters the prism, will it bend toward or away from the base of the prism, and why? Describe what happens as it exits the other side of the prism.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>According to Snell's Law, as light enters a denser medium (air to glass), it bends towards the normal. Since the prism is triangular, this results in bending towards the base. Upon exiting into air, it bends away from the normal due to the lower refractive index, moving away from the base.</p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Bends towards the base upon entry, exits away from the base</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bends away from the base upon entry, exits towards the base</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Does not bend</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Exits parallel to the base</p>]]></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Refraction Through a Glass Prism [SFP-REFRACTION-0002]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0002.png" width="400" /><br />A prism made of glass (n=1.5) is placed in air. If a light ray enters the prism, will it bend toward or away from the base of the prism, and why? Describe what happens as it exits the other side of the prism.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Mirage Effect on a Hot Day [SFP-REFRACTION-0003]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0003.png" width="400" /><br />Imagine a mirage on a hot day, where the index of refraction increases with height. Describe how light from the sky can appear to bend and give the appearance of water on the road.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Minimum Deviation Angle of a Prism [SFP-REFRACTION-0010]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0010.png" width="400" /><br />Beginning with the minimum deflection equation, Use the formula for minimum deviation: <span class="math-tex">\(\sin\left(\frac{\alpha + \theta_d}{2}\right) = n \sin\left(\frac{\alpha}{2}\right)\)</span>.  Derive the prism equation <span class="math-tex">\( \theta_d =\alpha/2\)</span> where <span class="math-tex">\(\alpha\)</span> is the apex angle and <span class="math-tex">\(n = 1.5\)</span>.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Minimum Deviation Angle of a Prism Using Approximation (second method) [SFP-REFRACTION-0020]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0010.png" width="400" /><br />Given a prism with apex angle <span class="math-tex">\(\alpha\)</span> and index of refraction <span class="math-tex">\(n = 1.5\)</span> (glass), use the small-angle approximation to derive the expression for the minimum deviation angle <span class="math-tex">\(\theta_d \approx \frac{\alpha}{2}\)</span>.<br />Start with the formula for minimum deviation angle: <span class="math-tex">\(\theta_d = \theta - \alpha + \sin^{-1}\left(\sqrt{n^2 - \sin^2 \theta} \cdot \sin \alpha - \sin\theta \cdot \cos \alpha\right)\)</span>.<br />Assume that <span class="math-tex">\(\theta\)</span> is zero and <span class="math-tex">\(\alpha\)</span> is small.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Deriving the Eikonal Equation from the Wave Equation [SFP-EIKONAL-0100]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-EIKONAL-0100.png" width="400" /><br />Starting with the wave equation and using the argument convention <span class="math-tex">\(\varphi(\omega t - \vec{k} \cdot \vec{r})\)</span>, derive the Eikonal equation using four-vector notation and tensor formalism. Assume a general form for the wave equation in spacetime and apply the conditions for a high-frequency approximation.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Optical Path Length in a Gradient-Index Medium [SFP-EIKONAL-0050]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0050.png" width="400" /><br />A light ray travels vertically from <span class="math-tex">\( y = 0 \)</span> to <span class="math-tex">\( y = h \)</span> in a medium where the index of refraction <span class="math-tex">\( n(y) \)</span> varies with height as <span class="math-tex">\( n(y) = 1 + \gamma y \)</span>. Using this, find the optical path length (OPL), <span class="math-tex">\(OPL =|S|= \int_C n(r) ds\)</span>, from <span class="math-tex">\( y = 0 \)</span> to <span class="math-tex">\( y = h \)</span>.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Refraction Angle Using Fermat's Principle [SFP-FERMAT-0030]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-REFRACTION-0030.png" width="400" /><br />A light ray travels from point A in air (refractive index <span class="math-tex">\(n_1 = 1\)</span>) to point B in water (refractive index <span class="math-tex">\(n_2 = 1.33\)</span>) at an angle of incidence <span class="math-tex">\(\theta_1 = 30^\circ\)</span>. Using Fermat's principle, find the angle of refraction <span class="math-tex">\(\theta_2\)</span> in the water.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Numerical Optical Relay System with Imaging and Magnification [SPF-IMAGING-0001]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0001.png" width="400" /><br />In an optical relay setup, an object is placed 10 cm from the first lens (focal length <span class="math-tex">\(f_1 = 10\, \text{cm}\)</span>). The second lens has a focal length of <span class="math-tex">\(f_2 = 10\, \text{cm}\)</span> and is positioned 20 cm away from the first lens. Using the imaging equation, calculate where the final image will form relative to the second lens, and determine the overall magnification.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Image Formation by a Single Lens Relay [SFP-IMAGING-0001]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0001.png" width="400" /><br />Using the thin lens formula <span class="math-tex">\(\frac{1}{f} = \frac{1}{b} + \frac{1}{g}\)</span>, where <span class="math-tex">\(f\)</span> is the focal length of the lens, <span class="math-tex">\(b\)</span> is the object distance, and <span class="math-tex">\(g\)</span> is the image distance, find the image distance and magnification for an object placed at a distance of 20 cm from a convex lens with a focal length of 10 cm.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Two-Lens Imaging System [SFP-IMAGING-0010]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0010.png" width="400" /><br />An object with a height of 3 units is placed at an object distance <span class="math-tex">\(b = 6\)</span> cm from a positive lens (Lens 1) with a focal length <span class="math-tex">\(f_1 = +4\)</span> cm. A second lens (Lens 2) with a focal length <span class="math-tex">\(f_2 = -3\)</span> cm is placed 18 cm to the right of Lens 1. Calculate the image distance <span class="math-tex">\(g_2\)</span> from Lens 2 and the total magnification <span class="math-tex">\(M_{total}\)</span> of the system.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Imaging an Object Placed at the Center of a Lens [SFP-IMAGING-0100]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-IMAGING-0100.png" width="400" /><br />Consider an optical setup where an object is imaged into the very center of a lens. Using ray tracing principles, show that the behavior of the rays after passing through this point is as if the second lens wasn’t there.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Deriving the ABCD Matrix for Free-Space Propagation [SFP-ABCD-0001]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-ABCD-0001.png" width="400" /><br />An optical beam propagates in free space over a distance <span class="math-tex">\(d\)</span>. Given the initial position <span class="math-tex">\(y_1\)</span> and angle <span class="math-tex">\(\theta_1\)</span>, find the resulting position <span class="math-tex">\(y_2\)</span> and angle <span class="math-tex">\(\theta_2\)</span> after propagation. Use the paraxial approximation, where <span class="math-tex">\(\tan \theta \approx \theta\)</span>, to derive the ABCD matrix for free-space propagation.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Calculating Michelson Contrast [SFP-MTF-0001]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://example.com/images/michelson-contrast-problem.png" width="400" /><br />Given a periodic test pattern captured through an optical system, the maximum intensity <span class="math-tex">\( I_{max} \)</span> is measured as 120 units, and the minimum intensity <span class="math-tex">\( I_{min} \)</span> is measured as 30 units. Calculate the Michelson contrast of this pattern.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Plot MTF from Measured Contrast [SFP-MTF-0002]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-MTF-0002.png" width="400" /><br />An optical system is tested using a sinusoidal test pattern at different spatial frequencies. The input spatial frequencies for each pattern are given below, and the following output contrasts are measured [spatial freq., contrast]:[5, 95],[10, 80],[15, 60],[20, 40],[25, 20]</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>Diffraction-Limit Line on MTF graph [SFP-MTF-0020]</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><img src="https://sfpimages.s3.us-east-2.amazonaws.com/FIG-MTF-0020.png" width="400" /><br />The Canon EF 50mm f/1.8 lens has a focal length of 50 mm, a maximum aperture of f/1.8, and operates at a wavelength of 550 nm. Calculate:<br />1. The Numerical Aperture (NA)<br />2. The cutoff frequency (in lp/mm)<br />3. The diffraction-limited MTF at a spatial frequency of 10 lp/mm.<br /><br />Formulae:<br /><span class="math-tex">\( \text{NA} = \frac{D}{2f} \)</span><br /><span class="math-tex">\( f_{\text{cutoff}} = \frac{1.22}{\lambda \cdot \text{NA}} \)</span><br /><span class="math-tex">\( \text{MTF}(f) = \frac{2}{\pi} \left( \cos^{-1} \left( \frac{f}{f_{\text{cutoff}}} \right) - \frac{f}{f_{\text{cutoff}}} \sqrt{1 - \left( \frac{f}{f_{\text{cutoff}}} \right)^2} \right) \)</span><br /><br />Hints:<br />The aperture diameter can be calculated as <span class="math-tex">\( D = \frac{f}{\text{f-number}} \)</span>.<br />For cutoff frequency, use the wavelength <span class="math-tex">\( \lambda = 550 \times 10^{-6} \)</span> mm (for green light).<br />Substitute the calculated NA and wavelength into the cutoff frequency formula.</p>]]></text>
+    </questiontext>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Almost there.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>That's not correct.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0">
+      <text></text>
+    </answer>
+  </question>
+</quiz>

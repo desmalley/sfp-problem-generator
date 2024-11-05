@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<quiz>
+    <question type="multichoice">
+        <name>
+            <text>Simple Question Example</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>What is the capital of France?</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[<p>The capital of France is Paris.</p>]]></text>
+        </generalfeedback>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <defaultgrade>1</defaultgrade>
+        <single>1</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+ 
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Correct!</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Almost there.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>That's not correct.</p>]]></text>
+        </incorrectfeedback>
+ 
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Paris</p>]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p>Yes, Paris is the capital of France.</p>]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>London</p>]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p>No, London is the capital of the United Kingdom.</p>]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Rome</p>]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p>No, Rome is the capital of Italy.</p>]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Berlin</p>]]></text>
+            <feedback format="html">
+                <text><![CDATA[<p>No, Berlin is the capital of Germany.</p>]]></text>
+            </feedback>
+        </answer>
+    </question>
+</quiz>
+ 
